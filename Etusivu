@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vanne Janne</title>
+
+<style>
+@import url(vannejanne.css);
+</style>
+</head>
+
+<body>
+<div id="container">
+<header>
+<nav>
+  <ul>
+    <li><a href="">jotain </a></li>
+    <li><a href="">jotain </a></li>
+    <li><a href="">jotain </a></li>
+    <li><a href="">jotain </a></li>
+  </ul>
+</nav>  
+<h1><img></h1>
+<p>Tähän jotain </p>
+</header>
+
+<main>
+<h2>Joku otsikko</h2>
+<h3>jotain</h3>
+<p> selityksiä </p>
+<p> selityksiä </p>
+
+<h3>joku otsikko</h3>
+<p> selityksiä </p>
+<p> selityksiä </p>
+</main>
+
+<aside>
+<h2>jotain</h2>
+<p> jotain </p>
+</aside>
+
+<footer>
+<p>All content copyright &copy; 2023, Vanne Janne.</p>
+  <div> 
+ 
+  </div> 
+</footer>
+</div>
+</body>
+</html>
