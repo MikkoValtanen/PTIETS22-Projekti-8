@@ -76,6 +76,9 @@ main {
   color: #555;
   margin: 2.5%;
 }
+h1 img {
+border-radius: 100%;
+}
 h2 {
   font-family: Georgia, serif;
   font-weight: normal;
