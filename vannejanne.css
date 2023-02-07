@@ -76,11 +76,16 @@ main {
   color: #202020;
   margin: 2.5%;
 }
-img #Vanne{
+ #Vanne {
 border-radius: 100%;
 }
-img #ryhmäkuva2{
-
+ #ryhmäkuva2{
+float: right;
+border-radius: 20%;
+}
+ #Vanne2{
+border-radius: 100%;
+float: right;
 }
 
 h2 {
