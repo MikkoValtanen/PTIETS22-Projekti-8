@@ -26,7 +26,23 @@
         <h3>Asiakaspalvelu</h3>
         <p>Vastaamme soittoonne mahdollisimman pian</p>
         <p>Puhelinnumero: 052 333 5142</p>
-        </main>
+
+        <h3>Yhteydenottolomake</h3>
+        <p>Voit ottaa meihin yhteyttä myös sähköpostitse tai jättää muuten vain palautetta!</p>
+        <form action="palautekaavake.php" method="POST">
+            <legend>Anna palautetta tai jätä yhteydenottopyyntö!</legend>
+            <ol>
+                <li><label for="firstlast">Lähettäjän nimi:<br></li><label for=""></label>
+                    <input type="text" name="full name" id="firstlast"></li>
+                <li><label>Palautteen otsikko<br></label>
+                    <input type="text" name="otsikko" id="otsikko"></li>
+                <li><label>Mitä asiasi koskee?<br>
+                    <textarea name="Vapaa palaute" rows="5" cols="50"></textarea></label></li>
+                <li><label for="email">Jätä sähköpostiosoitteesi, niin vastaamme mahdollisimman pian<br></label>
+                    <input type="text" name="email" id="email"></li>
+            </ol>
+        </form>   
+    </main>
         
         
     <footer>
