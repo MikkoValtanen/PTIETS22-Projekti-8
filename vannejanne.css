@@ -43,7 +43,7 @@ header p {
 /* nav styles */
 nav, footer {
   font-family: verdana, sans-serif;
-  background-color: #6666FF;
+  background-color: #00aedb;
 }
 
 nav ul {
@@ -90,7 +90,7 @@ h3 {
   font-size: 1.2em;
   text-transform: uppercase;
   letter-spacing: .2em;
-  color: #330066;
+  color: #a200ff;
   border-top: 1px solid;
   margin-top: 1.5em;
 }
@@ -172,7 +172,7 @@ footer {
       "banner banner"
       "main jotain"
       "footer footer";
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     position: relative;
   }
@@ -186,7 +186,8 @@ footer {
     background: url(images/scallop.png) repeat-y left top;
     background-color: #F6F3ED;
     padding: 1em;
-    padding-left: 45px;
+    border: double 4px #EADDC4;
+    border-radius: 25px;
   }
   footer {
     grid-area: footer;
