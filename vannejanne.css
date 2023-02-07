@@ -76,7 +76,7 @@ main {
   color: #202020;
   margin: 2.5%;
 }
-h1 img {
+img {
 border-radius: 100%;
 }
 h2 {
@@ -172,7 +172,7 @@ footer {
       "banner banner"
       "main jotain"
       "footer footer";
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     position: relative;
   }
@@ -186,7 +186,6 @@ footer {
     background: url(images/scallop.png) repeat-y left top;
     background-color: #F6F3ED;
     padding: 1em;
-    padding-left: 45px;
   }
   footer {
     grid-area: footer;
