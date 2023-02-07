@@ -76,9 +76,13 @@ main {
   color: #202020;
   margin: 2.5%;
 }
-img {
+img #Vanne{
 border-radius: 100%;
 }
+img #ryhmäkuva2{
+
+}
+
 h2 {
   font-family: Georgia, serif;
   font-weight: normal;
