@@ -43,7 +43,7 @@ header p {
 /* nav styles */
 nav, footer {
   font-family: verdana, sans-serif;
-  background-color: #6666FF;
+  background-color: #00aedb;
 }
 
 nav ul {
@@ -90,7 +90,7 @@ h3 {
   font-size: 1.2em;
   text-transform: uppercase;
   letter-spacing: .2em;
-  color: #330066;
+  color: #a200ff;
   border-top: 1px solid;
   margin-top: 1.5em;
 }
