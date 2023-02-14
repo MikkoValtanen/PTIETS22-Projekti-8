@@ -197,6 +197,9 @@ footer {
     border: double 4px #EADDC4;
     border-radius: 25px;
   }
+  #video {
+	  align: center;
+  }
   footer {
     grid-area: footer;
   }
