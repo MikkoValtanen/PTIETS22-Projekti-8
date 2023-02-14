@@ -197,8 +197,9 @@ footer {
     border: double 4px #EADDC4;
     border-radius: 25px;
   }
-  #video {
-	  align: center;
+  iframe {
+   display: block;
+   margin: 0 auto;
   }
   footer {
     grid-area: footer;
