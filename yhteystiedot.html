@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang ="fi">
 <html>
 
 <head>
@@ -71,14 +72,16 @@
         <form action="palautekaavake.php" method="POST">
             <legend>Anna palautetta tai jätä yhteydenottopyyntö!</legend>
             <ol>
-                <li><label for="firstlast">Lähettäjän nimi:<br></li><label for=""></label>
+                <li><label for="firstlast">Lähettäjän nimi:<br>
                     <input type="text" name="full name" id="firstlast"></li>
-                <li><label>Palautteen otsikko<br></label>
+                <li><label for="otsikko">Palautteen otsikko<br></label>
                     <input type="text" name="otsikko" id="otsikko"></li>
-                <li><label>Mitä asiasi koskee?<br>
+                <li><label for="palaute">Mitä asiasi koskee?<br>
                     <textarea name="Vapaa palaute" rows="5" cols="50"></textarea></label></li>
                 <li><label for="email">Jätä sähköpostiosoitteesi, niin vastaamme mahdollisimman pian<br></label>
                     <input type="text" name="email" id="email"></li>
+                <li><label for="sendbutton">Lähetä palautteesi tästä<br></label>
+                  <input type ="submit" value="Submit"></li>
             </ol>
         </form>   
     </main>

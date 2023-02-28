@@ -222,7 +222,13 @@ float: right;
 h2 {
   font-family: sans-serif;
   font-weight: normal;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: #a200ff;
+  border-top: 1px solid;
+  margin-top: 1.5em;
+  text-align: left;
 }
 h3 {
   font-family: sans-serif;
